@@ -1,0 +1,35 @@
+{
+  "name": "finance_manager",
+  "version": "1.0.0",
+  "description": "Zorvyn assignment - backend for finance data processing and access control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Finance",
+    "manager",
+    "Expence",
+    "Manager",
+    "Finance",
+    "data",
+    "processing"
+  ],
+  "author": "SAA",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.20.0",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8",
+    "uuid": "^13.0.0"
+  }
+}
